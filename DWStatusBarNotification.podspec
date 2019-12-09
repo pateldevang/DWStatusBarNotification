@@ -26,7 +26,7 @@ DWStatusBarNotification is the simple solution for implementing Custom messages 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pateldevang' => 'devangpatel92@gmail.com' }
   s.source           = { :git => 'https://github.com/pateldevang/DWStatusBarNotification.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
 
   s.ios.deployment_target = '10.0'
 
