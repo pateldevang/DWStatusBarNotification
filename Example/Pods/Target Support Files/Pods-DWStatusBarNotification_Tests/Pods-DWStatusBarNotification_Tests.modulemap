@@ -1,0 +1,6 @@
+framework module Pods_DWStatusBarNotification_Tests {
+  umbrella header "Pods-DWStatusBarNotification_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_DWStatusBarNotification_Example {
+  umbrella header "Pods-DWStatusBarNotification_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

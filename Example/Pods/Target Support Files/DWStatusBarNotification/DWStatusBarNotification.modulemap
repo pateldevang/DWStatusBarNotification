@@ -1,0 +1,6 @@
+framework module DWStatusBarNotification {
+  umbrella header "DWStatusBarNotification-umbrella.h"
+
+  export *
+  module * { export * }
+}

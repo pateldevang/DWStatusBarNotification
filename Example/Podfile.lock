@@ -1,0 +1,16 @@
+PODS:
+  - DWStatusBarNotification (0.1.0)
+
+DEPENDENCIES:
+  - DWStatusBarNotification (from `../`)
+
+EXTERNAL SOURCES:
+  DWStatusBarNotification:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DWStatusBarNotification: 8225d6aca196f649d8a1d40b4dc9c7eef08bc4ea
+
+PODFILE CHECKSUM: 45cc69a42c291bb73b5c6e07576c6f918143e571
+
+COCOAPODS: 1.6.1
