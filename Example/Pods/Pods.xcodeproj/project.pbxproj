@@ -11,6 +11,7 @@
 		4B8C602EA6E84574823FC3DB41663F6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		65FB0733CAB5A60901479B4084480F77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		7792C11E239EBF6F007BF78C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7792C11D239EBF6F007BF78C /* Reachability.swift */; };
+		7792C120239EC03D007BF78C /* statusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7792C11F239EC03D007BF78C /* statusBarView.swift */; };
 		833C29A6FFDE0EDA23596CD7BF1426A0 /* DWStatusBarNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 898FB2E86A453E56F6E5DED4D44D821D /* DWStatusBarNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85E63BEB83A4A99706F405D907269D85 /* DWStatusBarNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D218532534763E1EE60CB923DF4A25E /* DWStatusBarNotification-dummy.m */; };
 		9E3758DC94086D2AF5F1A43C02F2593F /* Pods-DWStatusBarNotification_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BCDB24A3BE52F0A47308AB056B158DC /* Pods-DWStatusBarNotification_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,6 +53,7 @@
 		61A34F0AEA6262A37BF863274C7525C5 /* Pods-DWStatusBarNotification_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWStatusBarNotification_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6B6687DE44F2D3D24AEFEB9CB8A3FA4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7792C11D239EBF6F007BF78C /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = DWStatusBarNotification/Classes/Reachability.swift; sourceTree = "<group>"; };
+		7792C11F239EC03D007BF78C /* statusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = statusBarView.swift; path = DWStatusBarNotification/Classes/statusBarView.swift; sourceTree = "<group>"; };
 		7BCDB24A3BE52F0A47308AB056B158DC /* Pods-DWStatusBarNotification_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DWStatusBarNotification_Tests-umbrella.h"; sourceTree = "<group>"; };
 		801466C764812885BF55A528A94D0FB2 /* DWStatusBarNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DWStatusBarNotification-prefix.pch"; sourceTree = "<group>"; };
 		81945B144BB7E389B80BB847FCB14793 /* Pods-DWStatusBarNotification_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DWStatusBarNotification_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				7792C11D239EBF6F007BF78C /* Reachability.swift */,
+				7792C11F239EC03D007BF78C /* statusBarView.swift */,
 				515153FA0482AF25A666A19280ADFADD /* Pod */,
 				0E485DAEEE02C1280D66E917A1470FBB /* Support Files */,
 			);
@@ -379,6 +382,7 @@
 			files = (
 				7792C11E239EBF6F007BF78C /* Reachability.swift in Sources */,
 				85E63BEB83A4A99706F405D907269D85 /* DWStatusBarNotification-dummy.m in Sources */,
+				7792C120239EC03D007BF78C /* statusBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
